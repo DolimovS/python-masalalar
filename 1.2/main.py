@@ -58,3 +58,48 @@
 # V=v1+v2
 # T = (t1 * v1 + t2 * v2) / (v1 + v2)
 # print("Hajmi:",V, "Tempratura:",T)
+
+# ========================================================================
+# 10
+# Radiusi r bo‘lgan aylanaga tashqi chizilgan muntazam n-burchakning
+# perimetrini toping.
+# import math
+# r=int(input("Aylana radiusi:"))
+# n=int(input("Burchaklar soni:"))
+# p=2*n*r*math.tan(math.pi/n)
+
+# print(p)
+
+
+# ========================================================================
+# 11 h balandlikdan tashlangan tosh yerga qancha vaqtda tushadi
+
+# import math
+# h=int(input("Balantlikni kiriting"))
+
+# t=math.sqrt((2*h)/9.81)
+# print("H balantlikdan tashlangan toshning erkin tushish vaqti:",t)
+
+
+# ========================================================================
+# 14 Teng tomonli uchburchakning tomoni berilgan bo‘lsin. Uning yuzi va
+# perimetrini toping.
+# import math
+# a=float(input("Uchburchak tomini="))
+
+# p=3*a
+# s=(a**2*math.sqrt(3)/4)
+
+# print(f"Uchburchakning peremetri: {p:.2f}",f"Uchburchakning yuzasi: {s:.2f}")
+
+# ========================================================================
+# 15 Uzunligi l bo‘lgan mayatnikning tebranish davrini aniqlang.
+# import math
+# l=int(input("Uzunligini kiriting:"))
+
+# t=2*math.pi*math.sqrt(l/9.81)
+
+# print(t)
+
+# ========================================================================
+# 16
