@@ -102,4 +102,28 @@
 # print(t)
 
 # ========================================================================
-# 16
+# 16. Og‘irliklari m1 va m2, orasidagi masofa r bo‘lgan ikki jism bir-birini
+# qanday kuch bilan tortadi?
+
+# m1=int(input("Birinchi jism massasi (kg):"))
+# m2=int(input("Ikkinchi jism massasi (kg):"))
+# r=int(input("Ular ortasidagi masofa (m):"))
+
+# g=6.67e-11
+
+# f=g*(m1*m2)/(r**2)
+
+# print({f:.6})
+
+# ========================================================================
+# 17 To‘g‘ri burchakli uchburchakning gipotenuzasi hamda bitta kateti  berilgan bo‘lsin. Uning yuzi va ichki chizilgan aylanasining radiusini toping.
+# import math
+
+# c = float(input("Gipotenuzani kiriting (c): "))
+# a = float(input("Bir katetni kiriting (a): "))
+# b = math.sqrt(c**2 - a**2)       
+# S = 0.5 * a * b                 
+# r = (a + b - c) / 2              
+# print(f"Ikkinchi katet: {b:.2f}")
+# print(f"Uchburchakning yuzi: {S:.2f}")
+# print(f"Ichki chizilgan aylananing radiusi: {r:.2f}")
